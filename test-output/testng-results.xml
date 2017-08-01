@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Connect Globe Suite" duration-ms="7557" started-at="2017-07-31T23:58:32Z" finished-at="2017-07-31T23:58:40Z">
+    <groups>
+    </groups>
+    <test name="Connect Globe Web Test" duration-ms="7557" started-at="2017-07-31T23:58:32Z" finished-at="2017-07-31T23:58:40Z">
+      <class name="com.javatpointtest.TestNGTest">
+        <test-method status="PASS" signature="simplemethod()[pri:0, instance:com.javatpointtest.TestNGTest@f6c48ac]" name="simplemethod" duration-ms="51" started-at="2017-07-31T18:58:40Z" finished-at="2017-07-31T18:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simplemethod -->
+      </class> <!-- com.javatpointtest.TestNGTest -->
+      <class name="com.javatpointtest.TestNGwebtest2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.javatpointtest.TestNGwebtest2@5622fdf]" name="launchBrowser" is-config="true" duration-ms="7261" started-at="2017-07-31T18:58:32Z" finished-at="2017-07-31T18:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="connectglobewebapptest()[pri:0, instance:com.javatpointtest.TestNGwebtest2@5622fdf]" name="connectglobewebapptest" duration-ms="198" started-at="2017-07-31T18:58:40Z" finished-at="2017-07-31T18:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectglobewebapptest -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.javatpointtest.TestNGwebtest2@5622fdf]" name="terminateBrowser" is-config="true" duration-ms="26" started-at="2017-07-31T18:58:40Z" finished-at="2017-07-31T18:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.javatpointtest.TestNGwebtest2 -->
+    </test> <!-- Connect Globe Web Test -->
+  </suite> <!-- Connect Globe Suite -->
+</testng-results>

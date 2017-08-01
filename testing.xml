@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Connect Globe Suite" parallel="false">
+  <test name="Connect Globe Web Test">
+    <classes>
+      <class name="com.javatpointtest.TestNGTest"/>
+      <class name="com.javatpointtest.TestNGwebtest2"/>
+      </classes>
+  </test>
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Connect Globe Suite]">
+  <test name="Connect Globe Web Test(failed)">
+    <classes>
+      <class name="com.javatpointtest.TestNGwebtest2">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="terminateBrowser"/>
+          <include name="verifyHomepageTitle"/>
+        </methods>
+      </class> <!-- com.javatpointtest.TestNGwebtest2 -->
+      <class name="com.javatpointtest.TestNGwebtest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- com.javatpointtest.TestNGwebtest -->
+      <class name="com.javatpointtest.TestNGwebtest3">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyHomepageTitle"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- com.javatpointtest.TestNGwebtest3 -->
+    </classes>
+  </test> <!-- Connect Globe Web Test(failed) -->
+</suite> <!-- Failed suite [Connect Globe Suite] -->
